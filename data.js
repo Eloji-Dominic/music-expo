@@ -1,7 +1,7 @@
 export let songs = [
   {
     name: 'Kelebu',
-    path: './track-music/Rema_-_Kelebu.mp3',
+    path: './Rema_-_Kelebu.mp3',
     artist: 'Rema',
     cover: './track-images/kelebu.jpeg'
   },
@@ -163,8 +163,8 @@ export let songs = [
   },
   {
     name: 'TOPBOY',
-    path: './track-music/Zyno_-_Topboy.mp3',
-    artist: 'ZYNO',
+    path: './Zyno_-_Topboy.mp3',
+    artist: 'ZYNO'
     cover: './track-images/zynox.jpg'
   },
   {
@@ -257,4 +257,5 @@ export let songs = [
     artist: 'JERIQ FT PHYNO',
     cover: './track-images/jeriq 3.jpeg'
   }
+
 ];
