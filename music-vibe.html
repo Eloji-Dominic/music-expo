@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Vibes - Enjoy The Best Unlimited Musics on Music Vibes</title>
+  <meta name="title" content="Music Vibes - Enjoy Best Unlimited Musics on Music Vibes">
+  <meta name="description" content="Best Hip Hop Music vibes Website made by Eloji Dominic">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./track-images/icons8-music-96.png" type="image/svg+xml">
+  
+  <link rel="stylesheet" href="./music-vibe.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <audio src="" id="audio"></audio>
+  
+  <div class="music-player">
+    <h1 class="music-name"></h1>
+    <div class="overflow">
+      <p class="artist-name"></p>
+    </div>
+
+    <div class="disk"></div>
+
+    <div class="song-slider">
+      <input type="range" value="0" class="seek-bar">
+      <span class="current-time">00:00</span>
+      <span class="song-duration">00:00</span>
+    </div>
+
+    <div class="controls">
+      <button class="btn backward-btn"><box-icon name='chevron-left' animation='tada' ></box-icon></button>
+      <button class="play-btn pause">
+        <span></span>
+        <span></span>
+      </button>
+      <button class="btn forward-btn"><box-icon name='chevron-right' animation='tada' ></box-icon></button>
+    </div>
+  </div>
+  <script type="module" src="./music-vibe.js"></script>
+  <script type="module" src="./data.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
